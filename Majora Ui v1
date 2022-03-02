@@ -213,3 +213,20 @@ end
 
         end
     end
+
+   
+
+createWindow("Ui Lib")
+
+createButton("button", "Ui Lib", function()
+    print("Test")
+end)
+
+createToggle("toggle", "Ui Lib", function(v)
+    if v == true then
+        print("on")
+    else
+    print("off")
+    end
+end)
+
