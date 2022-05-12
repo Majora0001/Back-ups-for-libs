@@ -175,8 +175,31 @@ local Themes = {
 		MinimiseAccent = Color3.fromRGB(255,60,80),
 		Maximise = Color3.fromRGB(67,255,68),
 		Maximise = Color3.fromRGB(67,255,68),
-		NavBar = Color3.fromRGB()
-
+		NavBar = Color3.fromRGB(219, 68, 103),
+		NavBarAccent = Color3.fromRGB(255,255,255),
+		NavBarInvert = Color3.fromRGB(30,30,30),
+		TitleBar = Color3.fromRGB(219, 68, 103),
+		TitleBarAccent = Color3.fromRGB(255,255,255),
+		Overlay = Color3.fromRGB(219, 68, 103),
+		Banner = Color3.fromRGB(255,255,255),
+		BannerAccent = Color3.fromRGB(219, 68, 103),
+		Content = Color3.fromRGB(219, 68, 103),
+		Button = Color3.fromRGB(219, 68, 103),
+		ButtonAccent = Color3.fromRGB(255,255,255),
+		ChipSet = Color3.fromRGB(219, 68, 103),
+		ChipSetAccent = Color3.fromRGB(255,255,255),
+		DataTable = Color3.fromRGB(219, 68, 103),
+		DataTableAccent = Color3.fromRGB(255,255,255),
+		Slider = Color3.fromRGB(255,255,255),
+		SliderAccent = Color3.fromRGB(219, 68, 103),
+		Toggle = Color3.fromRGB(219, 68, 103),
+		ToggleAccent = Color3.fromRGB(255,255,255),
+		Dropdown = Color3.fromRGB(255,255,255),
+		DropdownAccent = Color3.fromRGB(219, 68, 103),
+		ColorPicker = Color3.fromRGB(255,255,255),
+		ColorPickerAccent = Color3.fromRGB(219, 68, 103),
+		TextField = Color3.fromRGB(175,175,175),
+		TextFieldAccent = Color3.fromRGB(255,255,255),
 	}
 }
 
