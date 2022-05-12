@@ -168,7 +168,7 @@ local Themes = {
 		ColorPickerAccent = Color3.fromRGB(219, 68, 103),
 		TextField = Color3.fromRGB(175,175,175),
 		TextFieldAccent = Color3.fromRGB(255,255,255),
-	}
+	},
 	Majora = {
 		MainFrame = Color3.fromRGB(27,27,27),
 		Minimise = Color3.fromRGB(255,60,80),
