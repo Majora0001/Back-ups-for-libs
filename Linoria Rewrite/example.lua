@@ -1,7 +1,7 @@
 -- New example script written by wally
 -- You can suggest changes with a pull request or something
 
-local repo = 'https://raw.githubusercontent.com/Majora144/Ui-libs-back-ups/'
+local repo = 'https://raw.githubusercontent.com/Majora144/Ui-libs-back-ups/main/Linoria%20Rewrite/'
 
 local Library = loadstring(game:HttpGet(repo .. 'main.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'addons/ThemeManager.lua'))()
@@ -31,9 +31,12 @@ local LeftGroupBox = Tabs.Main:AddLeftGroupbox('Groupbox')
 
 -- Tabboxes are a tiny bit different, but here's a basic example:
 --[[
+
 local TabBox = Tabs.Main:AddLeftTabbox() -- Add Tabbox on left side
+
 local Tab1 = TabBox:AddTab('Tab 1')
 local Tab2 = TabBox:AddTab('Tab 2')
+
 -- You can now call AddToggle, etc on the tabs you added to the Tabbox
 ]]
 
@@ -86,6 +89,7 @@ MyButton2:AddTooltip('This is a sub button')
 -- NOTE: You can chain the button methods!
 --[[
     EXAMPLE: 
+
     LeftGroupBox:AddButton('Kill all', Functions.KillAll):AddTooltip('This will kill everyone in the game!')
         :AddButton('Kick all', Functions.KickAll):AddTooltip('This will kick everyone in the game!')
 ]]
