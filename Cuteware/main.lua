@@ -1,4 +1,4 @@
-- if you're just looking to get the library for whatever reason, just copy everything from below till you see LIBRARY END
+-- if you're just looking to get the library for whatever reason, just copy everything from below till you see LIBRARY END
 
 	--LIBRARY START
 	--Services
